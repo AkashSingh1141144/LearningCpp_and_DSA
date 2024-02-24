@@ -11,7 +11,10 @@ int main() {
 	int num = 2;
 	while (num < n) {
 		if(n % num == 0) {
-			cout <<"Not Prime" << endl;
+			cout <<"Not Prime for " << num << endl;
+		}
+		else {
+			cout << "Prime for " << num  << endl;
 		}
 		num = num + 1;
 	}
